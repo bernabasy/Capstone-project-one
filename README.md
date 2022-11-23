@@ -1,57 +1,129 @@
-![](https://img.shields.io/badge/Microverse-blueviolet) 
-# Capstone-project-one
- # Live Link
-[Live Preview](https://bernabasy.github.io/Capstone-project-one/)
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Capstone-project-one</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Clone](#clone)
+  - [Run](#run)
+- [👥 Authors](#authors)
+- [🙏 Acknowledgements](#acknowledgements)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Capstone-project-one <a name="about-project"></a>
+
+> This is the first capstone project in microverse course.
+
+## 🛠 Built With <a name="built-with">HTML, CSS, & Javascript</a>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Responsive 
+- Fast
+- Modern
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here is a link to deployed project.
+
+- [Live Demo Link](https://bernabasy.github.io/Capstone-project-one/)
+
+> Here is a link to loom video.
+
+- [Loom Video Link](https://www.loom.com/share/92aff8e92a3f44e8a44329e32b6c07e6)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Clone
+
+Clone this repository to your desired folder:
+
+  git clone https://github.com/bernabasy/Capstone-project-one.git
 
 
-## Built With
+### Run 
 
-- html
-- css
-- js
+To run project, run the following command:
 
-## Getting Started
-To get a local copy up and running, follow the steps in Setup below.
+  Open in desired editor.
 
-### Prerequisites
-Basic knowledge of HTML, CSS and js.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Setup
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+<!-- AUTHORS -->
 
-[Download the ZIP from this location](https://github.com/bernabasy/Capstone-project-one/archive/refs/heads/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+## 👥 Authors <a name="authors"></a>
 
-```bash
-To get a local copy up and running follow these simple steps:
- -On your terminal/IDE use the command "git clone [https://github.com/bernabasy/Capstone-project-one.git"](https://github.com/bernabasy/Capstone-project-one.git) "
- - Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/)
+> Mention all of the collaborators of this project.
 
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+👤 Bernabas yosef
 
-## Author
+ GitHub: [@githubhandle](https://github.com/bernabasy)
+ LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
 
-👤 **bernabas yosef**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@githubhandle](https://github.com/bernabasy)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
+<!-- ACKNOWLEDGEMENTS -->
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## 🤝 Contributing
+I would like to thank cindy shin the author of template design.
+
+Behance: [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+<!-- SUPPORT -->
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give a star...
 
-- thanks microvers for your templets
-- thenks coding paretiners for your suport
--
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- LICENSE -->
 
-This project is [MIT](./LICENSE) licensed.
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./mit.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
