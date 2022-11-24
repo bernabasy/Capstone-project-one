@@ -58,7 +58,7 @@
   display: block;
   -webkit-transition: ease-in-out all 0.3s;
   transition: ease-in-out all 0.3s;
-  background: #22504c7e;
+  background: #050d0d7e;
   border-radius: 2px;
   cursor: pointer;
 }
@@ -122,7 +122,6 @@
 .invite-wrap {
   padding-inline: 5px;
   padding-top: 2px;
-  padding-bottom: 20px;
   margin-inline: 20px;
   margin-top: 2%;
   border: 4px solid #fff;
@@ -180,11 +179,12 @@
 }
 
 .main-program {
-  background-color: rgba(32, 30, 30, 0.916);
+  background-color: #000000db;
   padding-top: 8%;
   display: flex;
   flex-direction: column;
   padding-bottom: 5%;
+  padding-inline: 3%;
 }
 
 .secondary-tittle {
@@ -200,7 +200,7 @@
   display: flex;
   justify-content: center;
   color: #272a31;
-  font-size: 3vh;
+  font-size: 2vh;
   padding-top: 6%;
   font-weight: 500;
 }
@@ -263,9 +263,10 @@
   display: flex;
   flex-direction: row;
   margin-inline: 5%;
-  gap: 5%;
+  height: 120px;
+  gap: 2%;
   align-items: center;
-  background-color: rgba(68, 65, 65, 0.722);
+  background-color: rgb(61 64 71);
 }
 
 .program:hover {
@@ -274,15 +275,21 @@
 }
 
 .program-icon {
-  width: 20%;
+  width: 70px;
+  padding-left: 15px;
 }
 
 .program-tittle {
-  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  width: 150px;
+
+  /* font-size: 18px; */
   font-weight: 700;
   line-height: 30px;
-  color: #ef513c;
-  text-align: center;
+
+  /* color: #ef513c; */
+  text-align: start;
   margin-right: 10px;
 }
 
@@ -385,7 +392,7 @@ a:link {
 }
 
 .partners {
-  background-color: #000;
+  background-color: #000000bd;
 }
 
 .partner1 {
@@ -438,9 +445,8 @@ a:link {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  margin: 10px;
   font-size: 12px;
-  margin-inline: 5%;
+  padding-inline: 5%;
 }
 
 .footer-logo-main {
@@ -454,6 +460,7 @@ a:link {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  padding-inline: 5%;
 }
 
 #off {
@@ -487,7 +494,7 @@ a:link {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #272a32;
+  color: #000000db;
 }
 
 .invite-msg,
@@ -495,23 +502,26 @@ a:link {
 .place-event,
 .city-event,
 .info-text-about {
-  font-size: 15px;
   font-weight: 400;
-  line-height: 24px;
+}
+
+.info-activities {
+  /* white-space: nowrap; */
+  font-size: 14px;
+  width: 80%;
 }
 
 .event {
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
-  margin-right: 30px;
   gap: 20px;
 }
 
 .bar-icon-gray {
   width: 35px;
   height: 16px;
-  border-bottom: 1px solid #928f8f;
+  border-bottom: 1px solid #898585;
   margin-bottom: 15px;
 }
 
@@ -694,7 +704,8 @@ a:link {
   .invite-wrap {
     padding-inline: 5px;
     padding-top: 2px;
-    padding-bottom: 20px;
+
+    /* padding-bottom: 20px; */
     margin-inline: 60px;
     margin-top: 2%;
     border: 4px solid #fff;
@@ -716,10 +727,30 @@ a:link {
     display: flex;
     flex-direction: column;
     margin-inline: 1%;
+    height: auto;
     gap: 10px;
     padding-bottom: 1%;
     align-items: center;
-    background-color: rgba(222, 102, 102, 0.722);
+  }
+
+  .program-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+
+    /* color: #ef513c; */
+
+    /* text-align: center; */
+
+    /* margin-right: 10px; */
+  }
+
+  .program-tittleNoWrap {
+    white-space: nowrap;
   }
 
   .program-icon {
@@ -741,10 +772,10 @@ a:link {
     color: #fff;
     text-align: center;
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 16px;
     font-family: lato, sans-serif;
     text-decoration: underline;
-    background-color: #000;
+    background-color: #0000000a;
   }
 
   .joinnew {
@@ -755,10 +786,18 @@ a:link {
     display: flex;
   }
 
+  .event {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+
+    /* padding-inline: 20%; */
+    gap: 20px;
+  }
+
   .invite-msg,
   .place-event,
   .city-event {
-    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     color: #272a32;
@@ -773,7 +812,7 @@ a:link {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
-    column-gap: 50px;
+    padding-inline: 5%;
   }
 
   .partner1 img {
@@ -875,4 +914,11 @@ a:link {
   border-color: red;
   font-weight: 100;
   line-height: 10px;
+}
+
+.separeter {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: #f1f1f1;
+  padding-top: 40px;
 }

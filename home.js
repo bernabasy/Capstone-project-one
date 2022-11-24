@@ -16,15 +16,15 @@ const activitiesArray = [
   {
     id: '1',
     image: 'images/speaker_01.png',
-    tittle: 'Remembering the Children: National Day for Truth & Reconciliation',
-    place: 'ew Iceland Heritage Museum & Independent Artists',
+    tittle: 'Remembering the Children:',
+    place: 'ew Iceland Heritage Museum & Independent',
     city: 'Gimli, MB',
   },
 
   {
     id: '2',
     image: 'images/speaker_02.png',
-    tittle: "Nuit Blanche Kids Zone at The Children's Museum",
+    tittle: "Nuit Blanche Kids Zone at ",
     place: "Manitoba Children's Museum",
     city: 'Winnipeg, MB',
   },
@@ -32,7 +32,7 @@ const activitiesArray = [
   {
     id: '3',
     image: 'images/speaker_03.png',
-    tittle: 'WSO Community Celebration Concert',
+    tittle: 'WSO Community Celebration ',
     place: 'Centennial Concert Hall',
     city: 'Winnipeg, MB',
   },
@@ -56,7 +56,7 @@ const activitiesArray = [
   {
     id: '6',
     image: 'images/speaker_06.png',
-    tittle: 'Glen Williams Open Studios - Pauline Gladstone',
+    tittle: 'Glen Williams Open Studios ',
     place: 'Williams Mill Creative Art Studios',
     city: 'Halton Hills, ON',
   },
@@ -90,7 +90,7 @@ const createActivities = () => {
     img.setAttribute('src', item.image);
     img.setAttribute('alt', 'National Day for Truth & Reconciliation');
     img.setAttribute('width', '178');
-    img.setAttribute('height', '178');
+    img.setAttribute('height', 'auto');
     event.appendChild(img);
 
     const info = document.createElement('div');
