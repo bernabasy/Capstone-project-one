@@ -89,6 +89,8 @@ const createActivities = () => {
     img.classList.add('event-img');
     img.setAttribute('src', item.image);
     img.setAttribute('alt', 'National Day for Truth & Reconciliation');
+    img.setAttribute('width', '178');
+    img.setAttribute('height', '178');
     event.appendChild(img);
 
     const info = document.createElement('div');
@@ -117,8 +119,16 @@ const createActivities = () => {
 
   const seeMore = document.createElement('button');
   seeMore.classList.add('see-more-wrap');
-  seeMore.innerText = 'MORE  🔽';
+  seeMore.innerText = 'MORE ';
   activities.appendChild(seeMore);
+
+  const arrowImg = document.createElement('img');
+  arrowImg.classList.add('arrow-img');
+  arrowImg.setAttribute('src', 'images/arrow_down.png');
+  arrowImg.setAttribute('alt', 'arrow icon');
+  arrowImg.setAttribute('width', '15');
+  arrowImg.setAttribute('height', '10');
+  seeMore.appendChild(arrowImg);
 };
 
 createActivities();
@@ -131,9 +141,9 @@ seeMorebtn.addEventListener('click', () => {
     element.classList.toggle('show');
 
     if (element.classList.contains('show')) {
-      seeMorebtn.innerText = 'LESS  🔼';
+      seeMorebtn.innerText = 'LESS ';
     } else {
-      seeMorebtn.innerText = 'MORE  🔽';
+      seeMorebtn.innerText = 'MORE';
     }
   });
 });
