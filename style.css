@@ -283,12 +283,9 @@
   display: flex;
   align-items: flex-start;
   width: 150px;
-
-  /* font-size: 18px; */
   font-weight: 700;
   line-height: 30px;
-
-  /* color: #ef513c; */
+  color: #ef513c;
   text-align: start;
   margin-right: 10px;
 }
@@ -506,7 +503,6 @@ a:link {
 }
 
 .info-activities {
-  /* white-space: nowrap; */
   font-size: 14px;
   width: 80%;
 }
@@ -704,8 +700,6 @@ a:link {
   .invite-wrap {
     padding-inline: 5px;
     padding-top: 2px;
-
-    /* padding-bottom: 20px; */
     margin-inline: 60px;
     margin-top: 2%;
     border: 4px solid #fff;
@@ -741,12 +735,7 @@ a:link {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
-
-    /* color: #ef513c; */
-
-    /* text-align: center; */
-
-    /* margin-right: 10px; */
+    color: #ef513c;
   }
 
   .program-tittleNoWrap {
@@ -790,8 +779,6 @@ a:link {
     display: flex;
     justify-content: flex-start;
     margin-top: 30px;
-
-    /* padding-inline: 20%; */
     gap: 20px;
   }
 
@@ -801,6 +788,9 @@ a:link {
     font-weight: 400;
     line-height: 25px;
     color: #272a32;
+    font-size: 16px;
+    align-content: center;
+    justify-content: center;
   }
 
   .place-event {
