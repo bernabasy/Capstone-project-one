@@ -24,8 +24,8 @@ const activitiesArray = [
   {
     id: '2',
     image: 'images/speaker_02.png',
-    tittle: "Nuit Blanche Kids Zone at ",
-    place: "Manitoba Children's Museum",
+    tittle: 'Nuit Blanche Kids Zone at ',
+    place: 'Manitoba Childrens Museum',
     city: 'Winnipeg, MB',
   },
 
